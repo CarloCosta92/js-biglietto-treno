@@ -6,8 +6,17 @@ const price= parseInt(0.21);
 
 //richiesta chilometri da percorrere
 
-let km= parseInt(prompt("Inserisci quanti km vuoi percorrere"))
+let km= parseInt(prompt("Inserisci quanti km vuoi percorrere"));
 
 // stampa dato inserito
 
-console.log(km)
+console.log(km);
+
+// richiesta età passeggero
+
+let age= parseInt(prompt("Inserisci la tua età"));
+
+// stampa dato inserito
+
+console.log(age);
+
