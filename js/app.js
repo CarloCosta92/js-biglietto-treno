@@ -44,4 +44,10 @@ priceTicket = priceTicket.toFixed(2);
 
 console.log( priceTicket + "€");
 
+// finestra con prezzo del ticket e auguri di buon viaggio
+
+window.alert("Il prezzo del biglietto ferroviario ammonta a " + priceTicket +" €");
+window.alert("Le auguriamo Buon Viaggio");
+
+
 
