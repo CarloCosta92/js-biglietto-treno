@@ -36,6 +36,12 @@ if (age < 18) {
    priceTicket = priceTicket * discountOld;
 }
 
-console.log( priceTicket);
+// riduzione cifre del biglietto ad al massimo due decimali
+
+priceTicket = priceTicket.toFixed(2);
+
+// stampa costo del biglietto
+
+console.log( priceTicket + "€");
 
 
