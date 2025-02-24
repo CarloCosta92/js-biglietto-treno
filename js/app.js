@@ -20,3 +20,10 @@ let age= parseInt(prompt("Inserisci la tua età"));
 
 console.log(age);
 
+// calcolo costo biglietto intero
+let priceTicket = price * km;
+
+// percentuale per minorenni e pensionati
+let discountYoung = 0.80;
+let discountOld = 0.60;
+
