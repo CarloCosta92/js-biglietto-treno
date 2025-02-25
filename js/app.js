@@ -4,9 +4,9 @@ window.alert("Benvenuto alla Boolean Trasporti,la preghiamo di fornirci i km da 
 
 const price= parseFloat(0.21);                                      
 
-//richiesta chilometri da percorrere
+//richiesta chilometri da percorrere -- float  per decimali dei km
 
-let km= parseInt(prompt("Inserisci quanti km vuoi percorrere"));
+let km= parseFloat(prompt("Inserisci quanti km vuoi percorrere"));
 
 // stampa dato inserito
 
